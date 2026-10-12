@@ -156,7 +156,7 @@ html.js .player,html.js .nojs-note{display:none}
   <p class="nojs-note">▶ ድምፁን ከላይ ያጫውቱ። ፊደላቱ ከድምፁ ጋር እንዲበሩ ፋይሉን በ Chrome ወይም Safari ይክፈቱ።</p>
 
   <div class="leaf">
-    <div class="fgrid" id="grid"><div></div><div class="ch">-wä</div><div class="ch">-wi</div><div class="ch">-wa</div><div class="ch">-we</div><div class="ch">-wə</div><div class="rh">ከ</div><button class="cell" id="cell0" data-i="0">ኰ<small>kwä</small></button><button class="cell" id="cell1" data-i="1">ኲ<small>kwi</small></button><button class="cell" id="cell2" data-i="2">ኳ<small>kwa</small></button><button class="cell" id="cell3" data-i="3">ኴ<small>kwe</small></button><button class="cell" id="cell4" data-i="4">ኵ<small>kw</small></button><div class="rh">ገ</div><button class="cell" id="cell5" data-i="5">ጐ<small>gwä</small></button><button class="cell" id="cell6" data-i="6">ጒ<small>gwi</small></button><button class="cell" id="cell7" data-i="7">ጓ<small>gwa</small></button><button class="cell" id="cell8" data-i="8">ጔ<small>gwe</small></button><button class="cell" id="cell9" data-i="9">ጕ<small>gw</small></button><div class="rh">ቀ</div><button class="cell" id="cell10" data-i="10">ቈ<small>qwä</small></button><button class="cell" id="cell11" data-i="11">ቊ<small>qwi</small></button><button class="cell" id="cell12" data-i="12">ቋ<small>qwa</small></button><button class="cell" id="cell13" data-i="13">ቌ<small>qwe</small></button><button class="cell" id="cell14" data-i="14">ቍ<small>qw</small></button><div class="rh">ሀ</div><button class="cell" id="cell15" data-i="15">ኈ<small>hwä</small></button><button class="cell" id="cell16" data-i="16">ኊ<small>hwi</small></button><button class="cell" id="cell17" data-i="17">ኋ<small>hwa</small></button><button class="cell" id="cell18" data-i="18">ኌ<small>hwe</small></button><button class="cell" id="cell19" data-i="19">ኍ<small>hw</small></button></div>
+    <div class="fgrid" id="grid"><div></div><div class="ch">-wä</div><div class="ch">-wə</div><div class="ch">-wi</div><div class="ch">-wa</div><div class="ch">-we</div><div class="rh">ከ</div><button class="cell" id="cell0" data-i="0">ኰ<small>kwä</small></button><button class="cell" id="cell1" data-i="1">ኵ<small>kw</small></button><button class="cell" id="cell2" data-i="2">ኲ<small>kwi</small></button><button class="cell" id="cell3" data-i="3">ኳ<small>kwa</small></button><button class="cell" id="cell4" data-i="4">ኴ<small>kwe</small></button><div class="rh">ገ</div><button class="cell" id="cell5" data-i="5">ጐ<small>gwä</small></button><button class="cell" id="cell6" data-i="6">ጕ<small>gw</small></button><button class="cell" id="cell7" data-i="7">ጒ<small>gwi</small></button><button class="cell" id="cell8" data-i="8">ጓ<small>gwa</small></button><button class="cell" id="cell9" data-i="9">ጔ<small>gwe</small></button><div class="rh">ቀ</div><button class="cell" id="cell10" data-i="10">ቈ<small>qwä</small></button><button class="cell" id="cell11" data-i="11">ቍ<small>qw</small></button><button class="cell" id="cell12" data-i="12">ቊ<small>qwi</small></button><button class="cell" id="cell13" data-i="13">ቋ<small>qwa</small></button><button class="cell" id="cell14" data-i="14">ቌ<small>qwe</small></button><div class="rh">ሀ</div><button class="cell" id="cell15" data-i="15">ኈ<small>hwä</small></button><button class="cell" id="cell16" data-i="16">ኍ<small>hw</small></button><button class="cell" id="cell17" data-i="17">ኊ<small>hwi</small></button><button class="cell" id="cell18" data-i="18">ኋ<small>hwa</small></button><button class="cell" id="cell19" data-i="19">ኌ<small>hwe</small></button></div>
   </div>
 
   <div class="tilet" aria-hidden="true"></div>
@@ -170,34 +170,34 @@ html.js .player,html.js .nojs-note{display:none}
 
 <script>
 // ===== LETTERS AND TIMINGS =====
-// Each line: letter, sound, the second where it starts in the recording. Read row by row: ኰ ኲ ኳ ኴ ኵ, then ጐ ...
+// Each line: letter, sound, the second where it starts in the recording. Read row by row: ኰ ኵ ኲ ኳ ኴ, then ጐ ...
 // To fix a letter, change its number. Its highlight lasts until the next letter starts.
 const LETTERS = [
   ["ኰ", "kwä",   1.54],
-  ["ኲ", "kwi",   3.78],
-  ["ኳ", "kwa",   5.94],
-  ["ኴ", "kwe",   7.97],
-  ["ኵ", "kw",   9.94],
+  ["ኵ", "kw",   3.78],
+  ["ኲ", "kwi",   5.94],
+  ["ኳ", "kwa",   7.97],
+  ["ኴ", "kwe",   9.94],
   ["ጐ", "gwä",  12.53],
-  ["ጒ", "gwi",  14.65],
-  ["ጓ", "gwa",  16.72],
-  ["ጔ", "gwe",  18.71],
-  ["ጕ", "gw",  20.57],
+  ["ጕ", "gw",  14.65],
+  ["ጒ", "gwi",  16.72],
+  ["ጓ", "gwa",  18.71],
+  ["ጔ", "gwe",  20.57],
   ["ቈ", "qwä",  22.47],
-  ["ቊ", "qwi",  24.40],
-  ["ቋ", "qwa",  26.43],
-  ["ቌ", "qwe",  28.19],
-  ["ቍ", "qw",  29.98],
+  ["ቍ", "qw",  24.40],
+  ["ቊ", "qwi",  26.43],
+  ["ቋ", "qwa",  28.19],
+  ["ቌ", "qwe",  29.98],
   ["ኈ", "hwä",  33.85],
-  ["ኊ", "hwi",  35.76],
-  ["ኋ", "hwa",  37.75],
-  ["ኌ", "hwe",  39.63],
-  ["ኍ", "hw",  41.50]
+  ["ኍ", "hw",  35.76],
+  ["ኊ", "hwi",  37.75],
+  ["ኋ", "hwa",  39.63],
+  ["ኌ", "hwe",  41.50]
 ];
 
 const cues=LETTERS.map((x,i)=>{const s=x[2],n=LETTERS[i+1];const e=(n&&n[2]-s<4)?n[2]-0.05:s+1.8;return [s,e];});
 const a=document.getElementById("a"), $=id=>document.getElementById(id);
-const COLS=["-wä","-wi","-wa","-we","-wə"], ROWS=["ከ","ገ","ቀ","ሀ"];
+const COLS=["-wä","-wə","-wi","-wa","-we"], ROWS=["ከ","ገ","ቀ","ሀ"];
 $("grid").innerHTML='<div></div>'+COLS.map(c=>`<div class="ch">${c}</div>`).join("")+ROWS.map((rh,r)=>`<div class="rh">${rh}</div>`+LETTERS.slice(r*5,r*5+5).map((x,k)=>{const i=r*5+k;return `<button class="cell" id="cell${i}" data-i="${i}" aria-label="${x[0]} ${x[1]}">${x[0]}<small>${x[1]}</small></button>`}).join("")).join("");
 const cells=cues.map((_,i)=>$("cell"+i));
 
